@@ -1,0 +1,15 @@
+import utils
+import numpy as np
+
+class Shower:
+    def __init__(self, id = 0,type='',input=''):
+        self.id = id        
+        self.type = type
+        self.Ex = []
+        self.Ey = []
+        self.Ez = []
+        self.absE = []
+        self.time = []
+
+
+        
